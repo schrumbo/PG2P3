@@ -1,0 +1,17 @@
+# Qt-spezifisch
+build-*/
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# Kompilierte Dateien
+*.o
+*.moc
+Makefile*
+*.exe
+*.dll
+
+# Qt Creator
+.cproject
+.project
+.settings/

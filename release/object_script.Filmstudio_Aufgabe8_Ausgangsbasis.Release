@@ -1,0 +1,11 @@
+release/drache.o
+release/drachenflug.o
+release/drachenreise.o
+release/filmstudio.o
+release/main.o
+release/mainwindow.o
+release/nachtlager.o
+release/reiseplan.o
+release/suchergebnisdialog.o
+release/moc_mainwindow.o
+release/moc_suchergebnisdialog.o

@@ -1,0 +1,11 @@
+debug/drache.o
+debug/drachenflug.o
+debug/drachenreise.o
+debug/filmstudio.o
+debug/main.o
+debug/mainwindow.o
+debug/nachtlager.o
+debug/reiseplan.o
+debug/suchergebnisdialog.o
+debug/moc_mainwindow.o
+debug/moc_suchergebnisdialog.o
