@@ -122,11 +122,71 @@ bool Filmstudio::loescheDrache(std::string name){
 
 
 std::vector<ReiseInfo> Filmstudio::findeReiseplaeneAlsPlayer(const std::string& name){
+    std::vector<ReiseInfo> result;
+    result.clear();
 
-
+    for(auto drache : drachenListe){
+        if(name == drache->getMeinPlayer()){
+            for(auto reisePlan : drache->getReiseplaene()){
+                ReiseInfo reiseInformation;
+                reiseInformation.name = reisePlan->getName();
+                reiseInformation.ende = reisePlan->getPlanEnde();
+                reiseInformation.beginn = reisePlan->getPlanBeginn();
+                reiseInformation.nummer = reisePlan->getReiseplanNummer();
+                result.push_back(reiseInformation);
+            }
+        }
+    }
+    return result;
 }
 std::vector<ReiseInfo> Filmstudio::findeReiseplaeneAlsPassagier(const std::string& name) {
-
+    std::vector<ReiseInfo> result;
+    result.clear();
+    for(auto drache : drachenListe){
+        for(auto reisePlan : drache->getReiseplaene()){
+            for(auto passagier : reisePlan->getPassagiere()){
+                if(passagier == name){
+                    ReiseInfo reiseInformation;
+                    reiseInformation.name = reisePlan->getName();
+                    reiseInformation.beginn = reisePlan->getPlanBeginn();
+                    reiseInformation.ende = reisePlan->getPlanEnde();
+                    reiseInformation.nummer = reisePlan->getReiseplanNummer();
+                    result.push_back(reiseInformation);
+                }
+            }
+        }
+    }
+    return result;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

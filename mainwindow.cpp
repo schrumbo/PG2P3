@@ -480,7 +480,31 @@ void MainWindow::on_actionPassagierSuchen_triggered()
     QString person = QInputDialog::getText(this, "Suche", "Name der gesuchten Person");
     if(person.isEmpty())return;
 
+    std::vector<ReiseInfo> alsPlayer = studio->findeReiseplaeneAlsPlayer(person.toStdString());
+    std::vector<ReiseInfo> alsPassagier = studio->findeReiseplaeneAlsPassagier(person.toStdString());
+
     auto* dialog = new SuchergebnisDialog(this);
+
+    for(const auto& info: alsPlayer){
+        dialog->addPlayerEntry(
+            info.nummer,
+            QString::fromStdString(info.name),
+            QString::fromStdString(info.beginn),
+            QString::fromStdString(info.ende)
+            );
+    }
+
+    for(const auto& info: alsPassagier){
+        dialog->addPassagierEntry(
+            info.nummer,
+            QString::fromStdString(info.name),
+            QString::fromStdString(info.beginn),
+            QString::fromStdString(info.ende)
+            );
+    }
+
+    dialog->setPassagierName(person);
+
     dialog->exec();
 }
 

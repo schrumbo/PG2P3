@@ -15,6 +15,10 @@ public:
     explicit SuchergebnisDialog(QWidget *parent = nullptr);
     ~SuchergebnisDialog();
 
+    void addPlayerEntry(int nummer, QString name, QString beginn, QString ende);
+    void addPassagierEntry(int nummer, QString name, QString beginn, QString ende);
+    void setPassagierName(QString name);
+
 private:
     Ui::SuchergebnisDialog *ui;
 };
