@@ -133,6 +133,8 @@ std::vector<ReiseInfo> Filmstudio::findeReiseplaeneAlsPlayer(const std::string& 
                 reiseInformation.ende = reisePlan->getPlanEnde();
                 reiseInformation.beginn = reisePlan->getPlanBeginn();
                 reiseInformation.nummer = reisePlan->getReiseplanNummer();
+                reiseInformation.preis = reisePlan->berechneGesamtpreis();
+
                 result.push_back(reiseInformation);
             }
         }
@@ -151,6 +153,8 @@ std::vector<ReiseInfo> Filmstudio::findeReiseplaeneAlsPassagier(const std::strin
                     reiseInformation.beginn = reisePlan->getPlanBeginn();
                     reiseInformation.ende = reisePlan->getPlanEnde();
                     reiseInformation.nummer = reisePlan->getReiseplanNummer();
+                    reiseInformation.preis = reisePlan->berechneGesamtpreis();
+
                     result.push_back(reiseInformation);
                 }
             }
@@ -160,6 +164,17 @@ std::vector<ReiseInfo> Filmstudio::findeReiseplaeneAlsPassagier(const std::strin
 }
 
 
+
+Reiseplan* Filmstudio::findeReiseplan(int planNr) {
+    for (auto drache : drachenListe) {
+        for (auto reiseplan : drache->getReiseplaene()) {
+            if (reiseplan->getReiseplanNummer() == planNr) {
+                return reiseplan;
+            }
+        }
+    }
+    return nullptr;
+}
 
 
 

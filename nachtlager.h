@@ -17,6 +17,15 @@ public:
     std::string getUnterkunftsTyp() const;
     double getRuheLevel() const;
 
+    //SETTER
+
+    void setLagerOrt(const string& ort);
+    void setAbfahrt(const string& abf);
+    void setAnkunft(const string& ank);
+    void setPreis(double p);
+    void setRuheLevel(double ruhe);
+    void setUnterkunftsTyp(const string& typ);
+
 private:
     static int naechsteLagerID;
     std::string lagerOrt;

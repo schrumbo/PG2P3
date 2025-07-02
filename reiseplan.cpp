@@ -56,7 +56,7 @@ Reiseplan::~Reiseplan() {
 
 
 void Reiseplan::addReise(Drachenreise* reise) {
-    reise->setReiseplan(this);  // Setzt die Rückreferenz: Drachenreise soll ihren Reiseplan kennen
+    reise->setReiseplan(this);
     reisen.push_back(reise);
 }
 
@@ -85,8 +85,31 @@ bool Reiseplan::loeschePassagier(std::string name) {
     return false;
 }
 
+//TODO
+double Reiseplan::berechnePreisFuerPassagier(std::string passagier){
+    double preis = 0.0;
 
+    auto passagierIt = std::find(passagierListe.begin(), passagierListe.end(), passagier);
+    if (passagierIt == passagierListe.end()) {
+        return 0.0;
+    }
 
+    for (const auto& reise : reisen) {
+        preis += reise->getPreis();
+    }
+
+    return preis;
+}
+
+double Reiseplan::berechneGesamtpreis() {
+    double gesamtpreis = 0.0;
+
+    for (const auto& passagier : passagierListe) {
+        gesamtpreis += berechnePreisFuerPassagier(passagier);
+    }
+
+    return gesamtpreis;
+}
 
 
 

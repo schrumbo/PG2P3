@@ -1,11 +1,17 @@
 release/drache.o
+release/drachenart.o
 release/drachenflug.o
+release/drachenflugdialog.o
 release/drachenreise.o
 release/filmstudio.o
 release/main.o
 release/mainwindow.o
 release/nachtlager.o
+release/nachtlagerdialog.o
 release/reiseplan.o
 release/suchergebnisdialog.o
+release/qrc_icons.o
+release/moc_drachenflugdialog.o
 release/moc_mainwindow.o
+release/moc_nachtlagerdialog.o
 release/moc_suchergebnisdialog.o

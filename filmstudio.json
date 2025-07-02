@@ -15,35 +15,67 @@
                 ],
                 "reiseabschnitte": [
                     {
+                        "abfahrt": "27.05.2025",
+                        "ankunft": "28.05.2025",
+                        "lagerID": 1000,
+                        "ort": "Keppler Mire",
+                        "preis": 132.0,
+                        "reiseNummer": 1000,
+                        "ruheLevel": 5.0,
+                        "typ": "nachtlager",
+                        "unterkunftsTyp": "Baumkrone"
+                    },
+                    {
+                        "abfahrt": "28.05.2025",
+                        "ankunft": "28.05.2025",
+                        "entfernung": 29.885815660453012,
+                        "flugNummer": 1,
+                        "preis": 111.77295057009427,
+                        "reiseNummer": 1001,
+                        "typ": "drachenflug",
+                        "ziel": "Flüstergrotte Grollschlund"
+                    },
+                    {
                         "abfahrt": "28.05.2025",
                         "ankunft": "29.05.2025",
-                        "entfernung": 243.0,
-                        "flugNummer": 1,
-                        "preis": 182.25,
-                        "reiseNummer": 1000,
+                        "lagerID": 1001,
+                        "ort": "Flüstergrotte Grollschlund",
+                        "preis": 117.3,
+                        "reiseNummer": 1002,
+                        "ruheLevel": 4.9,
+                        "typ": "nachtlager",
+                        "unterkunftsTyp": "Höhle"
+                    },
+                    {
+                        "abfahrt": "29.05.2025",
+                        "ankunft": "29.05.2025",
+                        "entfernung": 42.30443041404097,
+                        "flugNummer": 2,
+                        "preis": 158.21856974851323,
+                        "reiseNummer": 1003,
                         "typ": "drachenflug",
-                        "ziel": "Dracheninsel"
+                        "ziel": "TeMatua Rakatu Wetlands"
                     },
                     {
                         "abfahrt": "29.05.2025",
                         "ankunft": "30.05.2025",
-                        "entfernung": 176.5,
-                        "flugNummer": 2,
-                        "preis": 132.4,
-                        "reiseNummer": 1001,
-                        "typ": "drachenflug",
-                        "ziel": "Vulkaninsel"
+                        "lagerID": 1002,
+                        "ort": "TeMatua Rakatu Wetlands",
+                        "preis": 138.1,
+                        "reiseNummer": 1004,
+                        "ruheLevel": 4.2,
+                        "typ": "nachtlager",
+                        "unterkunftsTyp": "Baumkrone"
                     },
                     {
-                        "abfahrt": "06.06.2025",
-                        "ankunft": "07.06.2025",
-                        "lagerID": 1000,
-                        "ort": "Auf dem Vulkan",
-                        "preis": 135.0,
-                        "reiseNummer": 1002,
-                        "ruheLevel": 5.0,
-                        "typ": "nachtlager",
-                        "unterkunftsTyp": "Bergplateau"
+                        "abfahrt": "30.05.2025",
+                        "ankunft": "30.05.2025",
+                        "entfernung": 17.2,
+                        "flugNummer": 29,
+                        "preis": 64.25,
+                        "reiseNummer": 1046,
+                        "typ": "drachenflug",
+                        "ziel": "Rauchzahn Excelcior Peak"
                     }
                 ],
                 "reiseplanNummer": 1
@@ -56,31 +88,42 @@
                 ],
                 "reiseabschnitte": [
                     {
-                        "abfahrt": "01.06.2025",
+                        "abfahrt": "02.06.2025",
                         "ankunft": "03.06.2025",
-                        "entfernung": 480.0,
+                        "lagerID": 1003,
+                        "ort": "Vulkan Dunton",
+                        "preis": 127.5,
+                        "reiseNummer": 1005,
+                        "ruheLevel": 4.9,
+                        "typ": "nachtlager",
+                        "unterkunftsTyp": "Bergplateau"
+                    },
+                    {
+                        "abfahrt": "03.06.2025",
+                        "ankunft": "03.06.2025",
+                        "entfernung": 30.809742101738152,
                         "flugNummer": 3,
-                        "preis": 360.0,
-                        "reiseNummer": 1003,
+                        "preis": 115.22843546050069,
+                        "reiseNummer": 1006,
                         "typ": "drachenflug",
-                        "ziel": "Die geheime Welt"
+                        "ziel": "TaneMahuta Kakapo Swamp"
                     },
                     {
                         "abfahrt": "03.06.2025",
                         "ankunft": "04.06.2025",
-                        "lagerID": 1001,
-                        "ort": "Mondschattenhöhle",
-                        "preis": 150.0,
-                        "reiseNummer": 1004,
-                        "ruheLevel": 6.0,
+                        "lagerID": 1004,
+                        "ort": "TaneMahuta Kakapo Swamp",
+                        "preis": 149.0,
+                        "reiseNummer": 1007,
+                        "ruheLevel": 4.1,
                         "typ": "nachtlager",
-                        "unterkunftsTyp": "Höhle"
+                        "unterkunftsTyp": "Baumkrone"
                     }
                 ],
                 "reiseplanNummer": 2
             },
             {
-                "name": "Rückflug nach Neu-Berk",
+                "name": "Abenteuer Lavagrimm",
                 "passagiere": [
                     "Valka",
                     "Rotzbakke"
@@ -89,12 +132,64 @@
                     {
                         "abfahrt": "05.06.2025",
                         "ankunft": "06.06.2025",
-                        "entfernung": 120.0,
+                        "lagerID": 1005,
+                        "ort": "TaneMahuta Kakapo Swamp",
+                        "preis": 149.0,
+                        "reiseNummer": 1008,
+                        "ruheLevel": 4.1,
+                        "typ": "nachtlager",
+                        "unterkunftsTyp": "Baumkrone"
+                    },
+                    {
+                        "abfahrt": "06.06.2025",
+                        "ankunft": "06.06.2025",
+                        "entfernung": 12.795778385115842,
                         "flugNummer": 4,
-                        "preis": 90.0,
-                        "reiseNummer": 1005,
+                        "preis": 47.85621116033325,
+                        "reiseNummer": 1009,
                         "typ": "drachenflug",
-                        "ziel": "Neu-Berk"
+                        "ziel": "Draggonport Te Anau"
+                    },
+                    {
+                        "abfahrt": "06.06.2025",
+                        "ankunft": "06.06.2025",
+                        "entfernung": 44.16248314986855,
+                        "flugNummer": 5,
+                        "preis": 165.1676869805084,
+                        "reiseNummer": 1010,
+                        "typ": "drachenflug",
+                        "ziel": "Lavagrimm Coronation Peak"
+                    },
+                    {
+                        "abfahrt": "06.06.2025",
+                        "ankunft": "07.06.2025",
+                        "lagerID": 1006,
+                        "ort": "Lavagrimm Coronation Peak",
+                        "preis": 149.0,
+                        "reiseNummer": 1011,
+                        "ruheLevel": 4.1,
+                        "typ": "nachtlager",
+                        "unterkunftsTyp": "Bergplateau"
+                    },
+                    {
+                        "abfahrt": "08.06.2025",
+                        "ankunft": "09.06.2025",
+                        "entfernung": 34.512369389188144,
+                        "flugNummer": 26,
+                        "preis": 129.07626151556366,
+                        "reiseNummer": 1043,
+                        "typ": "drachenflug",
+                        "ziel": "Vulkan Dunton"
+                    },
+                    {
+                        "abfahrt": "09.06.2025",
+                        "ankunft": "10.06.2025",
+                        "entfernung": 66.77926962792455,
+                        "flugNummer": 27,
+                        "preis": 249.75446840843782,
+                        "reiseNummer": 1044,
+                        "typ": "drachenflug",
+                        "ziel": "Spey River Nebelkluft"
                     }
                 ],
                 "reiseplanNummer": 3
@@ -111,27 +206,48 @@
         "meinPlayer": "Haudrauf",
         "reiseplaene": [
             {
-                "name": "Reiseplan 2",
+                "name": "Reiseplan 10",
                 "passagiere": [
                     "Valka",
                     "Heather"
                 ],
                 "reiseabschnitte": [
                     {
-                        "abfahrt": "01.06.2025",
-                        "ankunft": "02.06.2025",
-                        "entfernung": 250.0,
-                        "flugNummer": 2,
-                        "preis": 187.5,
-                        "reiseNummer": 1002,
+                        "abfahrt": "12.06.2025",
+                        "ankunft": "13.06.2025",
+                        "lagerID": 1007,
+                        "ort": "Lavagrimm Coronation Peak",
+                        "preis": 149.0,
+                        "reiseNummer": 1012,
+                        "ruheLevel": 4.1,
+                        "typ": "nachtlager",
+                        "unterkunftsTyp": "Bergplateau"
+                    },
+                    {
+                        "abfahrt": "13.06.2025",
+                        "ankunft": "13.06.2025",
+                        "entfernung": 36.231254072992705,
+                        "flugNummer": 6,
+                        "preis": 135.50489023299272,
+                        "reiseNummer": 1013,
                         "typ": "drachenflug",
-                        "ziel": "Valka's Drachenrefugium"
+                        "ziel": "Glow Worm Cave"
+                    },
+                    {
+                        "abfahrt": "13.06.2025",
+                        "ankunft": "13.06.2025",
+                        "entfernung": 27.2000008613946,
+                        "flugNummer": 7,
+                        "preis": 101.72800322161581,
+                        "reiseNummer": 1014,
+                        "typ": "drachenflug",
+                        "ziel": "Draggonport Te Anau"
                     }
                 ],
-                "reiseplanNummer": 2
+                "reiseplanNummer": 10
             },
             {
-                "name": "Reiseplan 8",
+                "name": "Reiseplan 4",
                 "passagiere": [
                     "HauDrauf",
                     "Astrid",
@@ -139,28 +255,39 @@
                 ],
                 "reiseabschnitte": [
                     {
-                        "abfahrt": "30.05.2025",
-                        "ankunft": "02.06.2025",
-                        "entfernung": 271.0,
-                        "flugNummer": 8,
-                        "preis": 203.25,
-                        "reiseNummer": 1011,
-                        "typ": "drachenflug",
-                        "ziel": "Vulkaninsel"
-                    },
-                    {
-                        "abfahrt": "02.06.2025",
-                        "ankunft": "03.06.2025",
-                        "lagerID": 1004,
-                        "ort": "Vulkanblick",
+                        "abfahrt": "15.06.2025",
+                        "ankunft": "16.06.2025",
+                        "lagerID": 1008,
+                        "ort": "Glutkamm Putaketeke",
                         "preis": 162.0,
-                        "reiseNummer": 1012,
+                        "reiseNummer": 1015,
                         "ruheLevel": 4.0,
                         "typ": "nachtlager",
-                        "unterkunftsTyp": "Baumkrone"
+                        "unterkunftsTyp": "Bergplateau"
+                    },
+                    {
+                        "abfahrt": "16.06.2025",
+                        "ankunft": "16.06.2025",
+                        "entfernung": 59.90062788481359,
+                        "flugNummer": 8,
+                        "preis": 224.02834828920282,
+                        "reiseNummer": 1016,
+                        "typ": "drachenflug",
+                        "ziel": "Glow Worm Cave"
+                    },
+                    {
+                        "abfahrt": "16.06.2025",
+                        "ankunft": "17.06.2025",
+                        "lagerID": 1009,
+                        "ort": "Glow Worm Cave",
+                        "preis": 162.0,
+                        "reiseNummer": 1017,
+                        "ruheLevel": 4.8,
+                        "typ": "nachtlager",
+                        "unterkunftsTyp": "Höhle"
                     }
                 ],
-                "reiseplanNummer": 8
+                "reiseplanNummer": 4
             }
         ]
     },
@@ -174,7 +301,7 @@
         "meinPlayer": "Stoick der Jüngere",
         "reiseplaene": [
             {
-                "name": "Reiseplan 3",
+                "name": "Reiseplan 5",
                 "passagiere": [
                     "Raffnuss",
                     "Grobian",
@@ -182,28 +309,49 @@
                 ],
                 "reiseabschnitte": [
                     {
-                        "abfahrt": "03.06.2025",
-                        "ankunft": "04.06.2025",
-                        "entfernung": 450.0,
-                        "flugNummer": 3,
-                        "preis": 337.5,
-                        "reiseNummer": 1003,
-                        "typ": "drachenflug",
-                        "ziel": "Die geheime Welt"
+                        "abfahrt": "21.06.2025",
+                        "ankunft": "22.06.2025",
+                        "lagerID": 1010,
+                        "ort": "WaioraKauri RedCliff Wetland",
+                        "preis": 132.0,
+                        "reiseNummer": 1018,
+                        "ruheLevel": 5.0,
+                        "typ": "nachtlager",
+                        "unterkunftsTyp": "Baumkrone"
                     },
                     {
-                        "abfahrt": "04.06.2025",
-                        "ankunft": "05.06.2025",
-                        "lagerID": 1001,
-                        "ort": "Falkennest",
+                        "abfahrt": "22.06.2025",
+                        "ankunft": "22.06.2025",
+                        "entfernung": 41.662989223589946,
+                        "flugNummer": 9,
+                        "preis": 155.8195796962264,
+                        "reiseNummer": 1019,
+                        "typ": "drachenflug",
+                        "ziel": "Rauchzahn Excelcior Peak"
+                    },
+                    {
+                        "abfahrt": "22.06.2025",
+                        "ankunft": "23.06.2025",
+                        "lagerID": 1011,
+                        "ort": "Rauchzahn Excelcior Peak",
                         "preis": 160.0,
-                        "reiseNummer": 1004,
+                        "reiseNummer": 1020,
                         "ruheLevel": 6.0,
                         "typ": "nachtlager",
                         "unterkunftsTyp": "Bergplateau"
+                    },
+                    {
+                        "abfahrt": "23.06.2025",
+                        "ankunft": "23.06.2025",
+                        "entfernung": 47.81276275635945,
+                        "flugNummer": 10,
+                        "preis": 178.81973270878433,
+                        "reiseNummer": 1021,
+                        "typ": "drachenflug",
+                        "ziel": "Vulkaninsel Te Kaukaroa"
                     }
                 ],
-                "reiseplanNummer": 3
+                "reiseplanNummer": 5
             }
         ]
     },
@@ -227,26 +375,47 @@
                     {
                         "abfahrt": "05.06.2025",
                         "ankunft": "06.06.2025",
-                        "entfernung": 340.0,
-                        "flugNummer": 4,
-                        "preis": 255.0,
-                        "reiseNummer": 1005,
+                        "lagerID": 1012,
+                        "ort": "RakauNui Fangorn Forest",
+                        "preis": 140.0,
+                        "reiseNummer": 1022,
+                        "ruheLevel": 5.0,
+                        "typ": "nachtlager",
+                        "unterkunftsTyp": "Baumkrone"
+                    },
+                    {
+                        "abfahrt": "06.06.2025",
+                        "ankunft": "06.06.2025",
+                        "entfernung": 23.223435807654717,
+                        "flugNummer": 11,
+                        "preis": 86.85564992062865,
+                        "reiseNummer": 1023,
                         "typ": "drachenflug",
-                        "ziel": "Schreckenstein"
+                        "ziel": "Luxmore Gluthöhle"
                     },
                     {
                         "abfahrt": "06.06.2025",
                         "ankunft": "07.06.2025",
-                        "lagerID": 1002,
-                        "ort": "Sturmloch",
+                        "lagerID": 1013,
+                        "ort": "Luxmore Gluthöhle",
                         "preis": 140.0,
-                        "reiseNummer": 1006,
+                        "reiseNummer": 1024,
                         "ruheLevel": 5.0,
                         "typ": "nachtlager",
                         "unterkunftsTyp": "Höhle"
+                    },
+                    {
+                        "abfahrt": "07.06.2025",
+                        "ankunft": "07.06.2025",
+                        "entfernung": 16.04683569895887,
+                        "flugNummer": 12,
+                        "preis": 60.01516551410617,
+                        "reiseNummer": 1025,
+                        "typ": "drachenflug",
+                        "ziel": "Draggonport Te Anau"
                     }
                 ],
-                "reiseplanNummer": 4
+                "reiseplanNummer": 6
             }
         ]
     },
@@ -268,17 +437,69 @@
                 ],
                 "reiseabschnitte": [
                     {
-                        "abfahrt": "07.06.2025",
-                        "ankunft": "08.06.2025",
-                        "entfernung": 480.0,
-                        "flugNummer": 5,
-                        "preis": 360.0,
-                        "reiseNummer": 1007,
+                        "abfahrt": "31.06.2025",
+                        "ankunft": "01.07.2025",
+                        "lagerID": 1014,
+                        "ort": "RakauNui Fangorn Forest",
+                        "preis": 132.0,
+                        "reiseNummer": 1026,
+                        "ruheLevel": 5.0,
+                        "typ": "nachtlager",
+                        "unterkunftsTyp": "Baumkrone"
+                    },
+                    {
+                        "abfahrt": "01.07.2025",
+                        "ankunft": "01.07.2025",
+                        "entfernung": 23.223435807654717,
+                        "flugNummer": 13,
+                        "preis": 86.85564992062865,
+                        "reiseNummer": 1027,
                         "typ": "drachenflug",
-                        "ziel": "Eishöhlen-Insel"
+                        "ziel": "Luxmore Gluthöhle"
+                    },
+                    {
+                        "abfahrt": "01.07.2025",
+                        "ankunft": "01.07.2025",
+                        "entfernung": 31.67683793797878,
+                        "flugNummer": 14,
+                        "preis": 118.47137388804065,
+                        "reiseNummer": 1028,
+                        "typ": "drachenflug",
+                        "ziel": "Rauchzahn Excelcior Peak"
+                    },
+                    {
+                        "abfahrt": "01.07.2025",
+                        "ankunft": "02.07.2025",
+                        "lagerID": 1015,
+                        "ort": "Rauchzahn Excelcior Peak",
+                        "preis": 160.0,
+                        "reiseNummer": 1029,
+                        "ruheLevel": 6.0,
+                        "typ": "nachtlager",
+                        "unterkunftsTyp": "Bergplateau"
+                    },
+                    {
+                        "abfahrt": "02.07.2025",
+                        "ankunft": "02.07.2025",
+                        "entfernung": 62.02600878260437,
+                        "flugNummer": 15,
+                        "preis": 231.97727284694037,
+                        "reiseNummer": 1030,
+                        "typ": "drachenflug",
+                        "ziel": "Lavagrimm Coronation Peak"
+                    },
+                    {
+                        "abfahrt": "02.07.2025",
+                        "ankunft": "02.07.2025",
+                        "entfernung": 44.16248314986855,
+                        "flugNummer": 16,
+                        "preis": 165.1676869805084,
+                        "reiseNummer": 1031,
+                        "typ": "drachenflug",
+                        "ziel": "Draggonport Te Anau"
                     }
                 ],
-                "reiseplanNummer": 5
+                "reiseplanNummer": 7
             }
         ]
     },
@@ -292,25 +513,78 @@
         "meinPlayer": "Fischbein",
         "reiseplaene": [
             {
-                "name": "Entdeckung der Inseln",
+                "name": "Entdeckung der Höhlen",
                 "passagiere": [
                     "Mulch",
                     "Valka",
-                    "Hicks"
+                    "Hicks",
+                    "Rotzbakke"
                 ],
                 "reiseabschnitte": [
                     {
-                        "abfahrt": "09.06.2025",
-                        "ankunft": "10.06.2025",
-                        "entfernung": 390.0,
-                        "flugNummer": 6,
-                        "preis": 292.5,
-                        "reiseNummer": 1008,
+                        "abfahrt": "31.06.2025",
+                        "ankunft": "01.07.2025",
+                        "lagerID": 1016,
+                        "ort": "TeMatua Rakatu Wetlands",
+                        "preis": 132.0,
+                        "reiseNummer": 1032,
+                        "ruheLevel": 5.0,
+                        "typ": "nachtlager",
+                        "unterkunftsTyp": "Baumkrone"
+                    },
+                    {
+                        "abfahrt": "01.07.2025",
+                        "ankunft": "01.07.2025",
+                        "entfernung": 34.15300469355908,
+                        "flugNummer": 17,
+                        "preis": 127.73223755391098,
+                        "reiseNummer": 1033,
                         "typ": "drachenflug",
-                        "ziel": "Insel der Drachenjäger"
+                        "ziel": "Spey River Nebelkluft"
+                    },
+                    {
+                        "abfahrt": "01.07.2025",
+                        "ankunft": "01.07.2025",
+                        "entfernung": 22.57764269696445,
+                        "flugNummer": 18,
+                        "preis": 84.44038368664705,
+                        "reiseNummer": 1034,
+                        "typ": "drachenflug",
+                        "ziel": "Glutkamm Putaketeke"
+                    },
+                    {
+                        "abfahrt": "01.07.2025",
+                        "ankunft": "02.07.2025",
+                        "lagerID": 1017,
+                        "ort": "Glutkamm Putaketeke",
+                        "preis": 160.0,
+                        "reiseNummer": 1035,
+                        "ruheLevel": 6.0,
+                        "typ": "nachtlager",
+                        "unterkunftsTyp": "Bergplateau"
+                    },
+                    {
+                        "abfahrt": "02.07.2025",
+                        "ankunft": "02.07.2025",
+                        "entfernung": 46.316496593196106,
+                        "flugNummer": 19,
+                        "preis": 173.22369725855344,
+                        "reiseNummer": 1036,
+                        "typ": "drachenflug",
+                        "ziel": "Luxmore Gluthöhle"
+                    },
+                    {
+                        "abfahrt": "02.07.2025",
+                        "ankunft": "02.07.2025",
+                        "entfernung": 17.1634511268616,
+                        "flugNummer": 20,
+                        "preis": 64.19130721446238,
+                        "reiseNummer": 1037,
+                        "typ": "drachenflug",
+                        "ziel": "Dracheninsel"
                     }
                 ],
-                "reiseplanNummer": 6
+                "reiseplanNummer": 8
             }
         ]
     }

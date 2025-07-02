@@ -1,11 +1,17 @@
 debug/drache.o
+debug/drachenart.o
 debug/drachenflug.o
+debug/drachenflugdialog.o
 debug/drachenreise.o
 debug/filmstudio.o
 debug/main.o
 debug/mainwindow.o
 debug/nachtlager.o
+debug/nachtlagerdialog.o
 debug/reiseplan.o
 debug/suchergebnisdialog.o
+debug/qrc_icons.o
+debug/moc_drachenflugdialog.o
 debug/moc_mainwindow.o
+debug/moc_nachtlagerdialog.o
 debug/moc_suchergebnisdialog.o

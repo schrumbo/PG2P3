@@ -18,6 +18,8 @@ public:
 
     bool loescheDrachenreise(int reiseNummer);
     bool loeschePassagier(std::string name);
+    double berechnePreisFuerPassagier(std::string passagier);
+    double berechneGesamtpreis();
 
     // --------- getter ---------
     std::string getStartOrt() const;
@@ -29,6 +31,7 @@ public:
     vector<std::string>& getPassagiere();
     std::string getPlanBeginn();
     std::string getPlanEnde();
+
 
 private:
     static int naechsteNummer;

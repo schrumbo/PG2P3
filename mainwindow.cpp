@@ -483,14 +483,15 @@ void MainWindow::on_actionPassagierSuchen_triggered()
     std::vector<ReiseInfo> alsPlayer = studio->findeReiseplaeneAlsPlayer(person.toStdString());
     std::vector<ReiseInfo> alsPassagier = studio->findeReiseplaeneAlsPassagier(person.toStdString());
 
-    auto* dialog = new SuchergebnisDialog(this);
+    auto* dialog = new SuchergebnisDialog(studio, this);
 
     for(const auto& info: alsPlayer){
         dialog->addPlayerEntry(
             info.nummer,
             QString::fromStdString(info.name),
             QString::fromStdString(info.beginn),
-            QString::fromStdString(info.ende)
+            QString::fromStdString(info.ende),
+            info.preis
             );
     }
 
@@ -499,7 +500,8 @@ void MainWindow::on_actionPassagierSuchen_triggered()
             info.nummer,
             QString::fromStdString(info.name),
             QString::fromStdString(info.beginn),
-            QString::fromStdString(info.ende)
+            QString::fromStdString(info.ende),
+            info.preis
             );
     }
 

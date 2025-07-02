@@ -29,9 +29,20 @@
         <widget class="QLineEdit" name="lineEditPassagierName"/>
        </item>
        <item>
+        <widget class="QPushButton" name="pushButtonSuche">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>icons/suchen.svg</normaloff>icons/suchen.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer name="horizontalSpacer">
          <property name="orientation">
-          <enum>Qt::Horizontal</enum>
+          <enum>Qt::Orientation::Horizontal</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
@@ -71,6 +82,11 @@
             <string>ReiseEnde</string>
            </property>
           </column>
+          <column>
+           <property name="text">
+            <string>Preis</string>
+           </property>
+          </column>
          </widget>
         </item>
        </layout>
@@ -104,9 +120,43 @@
             <string>ReiseEnde</string>
            </property>
           </column>
+          <column>
+           <property name="text">
+            <string>Preis</string>
+           </property>
+          </column>
          </widget>
         </item>
        </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="tableWidgetReiseabschnitte">
+       <column>
+        <property name="text">
+         <string>Typ</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Ziel/Lagerort</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Abfahrt</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Ankunft</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Preis</string>
+        </property>
+       </column>
       </widget>
      </item>
     </layout>

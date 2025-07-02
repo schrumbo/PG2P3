@@ -36,3 +36,29 @@ int Nachtlager::getLagerID() const { return lagerID; }
 string Nachtlager::getLagerOrt() const { return lagerOrt; }
 string Nachtlager::getUnterkunftsTyp() const { return unterkunftsTyp; }
 double Nachtlager::getRuheLevel() const { return ruheLevel; }
+
+//SETTER
+
+void Nachtlager::setLagerOrt(const string& ort) {
+    lagerOrt = ort;
+}
+
+void Nachtlager::setAbfahrt(const string& abf) {
+    abfahrt = abf;
+}
+
+void Nachtlager::setAnkunft(const string& ank) {
+    ankunft = ank;
+}
+
+void Nachtlager::setPreis(double p) {
+    preis = p;
+}
+
+void Nachtlager::setRuheLevel(double ruhe) {
+    ruheLevel = ruhe;
+}
+
+void Nachtlager::setUnterkunftsTyp(const string& typ) {
+    unterkunftsTyp = typ;
+}

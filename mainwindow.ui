@@ -183,7 +183,7 @@
   <action name="actionBeenden">
    <property name="icon">
     <iconset>
-     <normaloff>icons/icons/beenden.svg</normaloff>icons/icons/beenden.svg</iconset>
+     <normaloff>icons/beenden.svg</normaloff>icons/beenden.svg</iconset>
    </property>
    <property name="text">
     <string>Beenden</string>
@@ -197,7 +197,7 @@
   <action name="actionSpeichern">
    <property name="icon">
     <iconset>
-     <normaloff>icons/icons/speichern.svg</normaloff>icons/icons/speichern.svg</iconset>
+     <normaloff>icons/speichern.svg</normaloff>icons/speichern.svg</iconset>
    </property>
    <property name="text">
     <string>Speichern</string>
@@ -206,7 +206,7 @@
   <action name="actionEinlesen">
    <property name="icon">
     <iconset>
-     <normaloff>icons/icons/einlesen.svg</normaloff>icons/icons/einlesen.svg</iconset>
+     <normaloff>icons/einlesen.svg</normaloff>icons/einlesen.svg</iconset>
    </property>
    <property name="text">
     <string>Einlesen</string>
@@ -215,7 +215,7 @@
   <action name="actionDrache_L_schen">
    <property name="icon">
     <iconset>
-     <normaloff>icons/icons/drache.svg</normaloff>icons/icons/drache.svg</iconset>
+     <normaloff>icons/drache.svg</normaloff>icons/drache.svg</iconset>
    </property>
    <property name="text">
     <string>Drache Löschen</string>
@@ -224,7 +224,7 @@
   <action name="actionReiseplan_L_schen">
    <property name="icon">
     <iconset>
-     <normaloff>icons/icons/reiseplan.svg</normaloff>icons/icons/reiseplan.svg</iconset>
+     <normaloff>icons/reiseplan.svg</normaloff>icons/reiseplan.svg</iconset>
    </property>
    <property name="text">
     <string>Reiseplan Löschen</string>
@@ -233,7 +233,7 @@
   <action name="actionDrachenreise_L_schen">
    <property name="icon">
     <iconset>
-     <normaloff>icons/icons/drachenreise.svg</normaloff>icons/icons/drachenreise.svg</iconset>
+     <normaloff>icons/drachenreise.svg</normaloff>icons/drachenreise.svg</iconset>
    </property>
    <property name="text">
     <string>Drachenreise Löschen</string>
@@ -242,7 +242,7 @@
   <action name="actionPassagier_L_schen">
    <property name="icon">
     <iconset>
-     <normaloff>icons/icons/passagier.svg</normaloff>icons/icons/passagier.svg</iconset>
+     <normaloff>icons/passagier.svg</normaloff>icons/passagier.svg</iconset>
    </property>
    <property name="text">
     <string>Passagier Löschen</string>
@@ -251,7 +251,7 @@
   <action name="actionPassagierSuchen">
    <property name="icon">
     <iconset>
-     <normaloff>icons/icons/suchen.svg</normaloff>icons/icons/suchen.svg</iconset>
+     <normaloff>icons/suchen.svg</normaloff>icons/suchen.svg</iconset>
    </property>
    <property name="text">
     <string>Passagier Suchen</string>

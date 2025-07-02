@@ -10,6 +10,7 @@ struct ReiseInfo{
     std::string name;
     std::string beginn;
     std::string ende;
+    double preis;
 };
 
 
@@ -28,6 +29,7 @@ public:
 
     std::vector<ReiseInfo> findeReiseplaeneAlsPlayer(const std::string& name);
     std::vector<ReiseInfo> findeReiseplaeneAlsPassagier(const std::string& name);
+    Reiseplan* findeReiseplan(int planNr);
 
     // --------- getter ---------
     vector<Drache*>& getDrachenListe();
