@@ -260,42 +260,29 @@ void SuchergebnisDialog::on_tableWidgetPassagier_itemDoubleClicked(QTableWidgetI
 void SuchergebnisDialog::on_tableWidgetReiseabschnitte_itemDoubleClicked(QTableWidgetItem *item)
 {
     if (!item) return;
-
-    // Ermitteln der angeklickten Zeile
     int row = item->row();
 
-    // Prüfen ob ein aktueller Reiseplan vorhanden ist
     if (!aktuellerReiseplan) {
         QMessageBox::warning(this, "Fehler", "Kein Reiseplan ausgewählt!");
         return;
     }
 
-    // Reiseabschnitte aus dem aktuellen Reiseplan holen
     const auto& reiseabschnitte = aktuellerReiseplan->getReiseabschnitte();
 
-    // Prüfen ob die Zeile gültig ist
     if (row < 0 || row >= static_cast<int>(reiseabschnitte.size())) {
         QMessageBox::warning(this, "Fehler", "Ungültige Auswahl!");
         return;
     }
 
-    // Das entsprechende Reiseabschnitt-Objekt holen
     Drachenreise* reise = reiseabschnitte[row];
     if (!reise) return;
 
-    // Typ prüfen und entsprechenden Dialog öffnen
     if (reise->getTyp() == "drachenflug") {
-        // Cast zu Drachenflug
         Drachenflug* flug = dynamic_cast<Drachenflug*>(reise);
         if (flug) {
             //TODO
-
-
-
-
             DrachenflugDialog dlg(flug, this);
             if (dlg.exec() == QDialog::Accepted) {
-                // Bei OK: Tabelle aktualisieren
                 zeigeReiseabschnitte(aktuellerReiseplan->getReiseplanNummer());
                 QMessageBox::information(this, "Erfolg", "Drachenflug wurde aktualisiert!");
             }
@@ -303,12 +290,10 @@ void SuchergebnisDialog::on_tableWidgetReiseabschnitte_itemDoubleClicked(QTableW
         }
     }
     else if (reise->getTyp() == "nachtlager") {
-        // Cast zu Nachtlager
         Nachtlager* nacht = dynamic_cast<Nachtlager*>(reise);
         if (nacht) {
             NachtlagerDialog dlg(nacht, this);
             if (dlg.exec() == QDialog::Accepted) {
-                // Bei OK: Tabelle aktualisieren
                 ui->tableWidgetReiseabschnitte->setRowCount(0);
 
                 zeigeReiseabschnitte(aktuellerReiseplan->getReiseplanNummer());
